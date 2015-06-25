@@ -35,15 +35,21 @@ optional arguments:
 ```
 
 # Using Command line arguments - User provided password
+```
 $ mysql_password_hash -p secret
 PASSWORD: secret
 HASH: *14e65567abdb5135d0cfd9a70b3032c179a49ee7
+```
 
 # Using Command line arguments - Random password with X length (default length=12)
+```
 $ mysql_password_hash -r -l 20
 PASSWORD: gnlrn96^g18jcblmssa6
 HASH: *e3cbe60709e8abe2082c92cc5e72a762d5f18e22
+```
 
 # interactive mode (no arguments)
+```
 mysql_password_hash
+```
 
